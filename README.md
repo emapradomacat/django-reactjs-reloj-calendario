@@ -22,6 +22,13 @@ proyecto/
     - App.css
   - ...
 
+## ***Consideraciones al Desplegar en la Nube***
+Asegúrate de tener en cuenta lo siguiente:
+- Crear una cuenta en el proveedor de servicios en la nube (por ejemplo, AWS, Google Cloud, Azure, etc.).
+- Crear una instancia de servidor virtual (VM) en la nube utilizando la plataforma elegida.
+- A partir de este momento puedes continuar con el procedimiento que se describe a continuación.
+  
+*- Ten en cuenta que al utilizar servicios en la nube, es posible incurrir en costos asociados. Algunos servicios pueden tener niveles de capa gratuita limitados y, si se exceden esos límites, podrían generarse cargos adicionales. Recomendamos revisar la documentación del proveedor de servicios en la nube y configurar alertas o límites de uso para mantener el control sobre los costos y evitar gastos inesperados.*
 
 ## Requisitos Previos
 
@@ -75,16 +82,6 @@ Para una limpieza total será necesario borrar las imágenes correspondientes al
 docker image rm django-react-web
 docker image rm django-react-api
 ```
-
-
-## ***Consideraciones al Desplegar en la Nube***
-Asegúrate de tener en cuenta lo siguiente:
-- Crear una Cuenta en el proveedor de servicios en la nube (por ejemplo, AWS, Google Cloud, Azure, etc.).
-- Crear una instancia de servidor virtual (VM) en la nube utilizando la plataforma elegida.
-- Ten en cuenta que al utilizar servicios en la nube, es posible incurrir en costos asociados. Algunos servicios pueden tener niveles de capa gratuita limitados y, si se exceden esos límites, podrían generarse cargos adicionales. Asegúrate de comprender las políticas de facturación del proveedor de servicios en la nube y supervisar tu uso para evitar sorpresas en la factura.
-Recomendamos revisar la documentación del proveedor de servicios en la nube y configurar alertas o límites de uso para mantener el control sobre los costos y evitar gastos inesperados.
-
-
 
 
 ## Autor
